@@ -8,3 +8,4 @@ Gaining access the user not supposed to
 eg administrator acess
 eg by gaining a path to that page example.com/admin-page   this kind of informations can be find on robots.txt
 -by session hijacking 
+
