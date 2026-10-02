@@ -169,7 +169,7 @@ sqlmap -u "http://target.com/page.php?id=1" --dbs
 sqlmap -u "http://target.com/page.php?id=1" -D database_name --tables
 ````
 
-## 3. Command injection attacks
+## 3. [[OS Command injection]] attacks
 Command injection commonly appears in applications that:
 
 - **File operations:** Converting, processing, or manipulating files
@@ -233,7 +233,7 @@ Methods for detecting blind command injection:
 ; sleep 10 && echo "executed"
 ````
 
-## 4. File inclusion Attacks
+## 4. [[File upload vulnerabilites]] / File inclusion Attacks
 Local File Inclusion (LFI) vulnerabilities allow attackers to include and potentially execute local files on the server through manipulation of file inclusion mechanisms.
 
 LFI commonly appears in:
