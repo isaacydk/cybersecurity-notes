@@ -1,4 +1,9 @@
-`sudo adduser username`    
+`sudo adduser username`    (better)OR
+`sudo useradd -m -s /bin/bash username`  -m - to create home dir.  -s -to specifiy shell
+
+`sudo passwd username`    -to set password to a user
+`su username`    to switch user
+
 `list of the user - /etc/passwd`
 `Hashed password storage - /etc/shadow`
 
